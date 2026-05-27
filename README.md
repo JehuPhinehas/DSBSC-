@@ -1,6 +1,4 @@
 # DSBSC
-
-
 EX NO: 2	DSB-SC-AM MODULATOR AND DEMODULATOR
 
 AIM:
@@ -13,7 +11,6 @@ EQUIPMENTS REQUIRED
 •	SCI LAB
 
 Note: Keep all the switch faults in off position
-
 Algorithm:
 
 1.	Define Parameters:
@@ -44,9 +41,7 @@ PROCEDURE
 •	Verify the generated waveform using Tabulation and Model Waveform
 
 Model Waveform
-
 <img width="703" height="679" alt="image" src="https://github.com/user-attachments/assets/e7c7c7f8-ccf2-41ac-b1f3-325989941a6f" />
-
 Program
 
 ~~~
@@ -69,7 +64,6 @@ subplot(3,1,3)
 plot(t,eDSBSC);
 
 ~~~
-
 Output Graph
 <img width="1919" height="1199" alt="image" src="https://github.com/user-attachments/assets/662f3442-b3cc-4591-ba59-2d834dba3693" />
 Tablular Column
