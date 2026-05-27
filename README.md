@@ -50,35 +50,35 @@ Model Waveform
 Program
 
 ~~~
-Am=13.15;
-fm=1713;
-Ac=21.04;
-fc=17130;
-fs=171300;
-t=0:(1/fs):(2/fm);
-em=Am.*cos(2*3.14*fm*t);
+Am=13.45;
+fm=1985;
+fc=19850;  
+Ac=20.175;
+fs=198500;
+t=0:(1/fs):(4/fm);
+em=Am*cos(2*3.14*fm*t);
 subplot(3,1,1);
 plot(t,em);
-ec=Ac.*cos(2*3.14*fc*t);
+ec=Ac*cos(2*3.14*fc*t)
 subplot(3,1,2);
 plot(t,ec);
 eAm1=(Ac+em).*cos(2*3.14*fc*t);
 eAm2=(Ac-em).*cos(2*3.14*fc*t);
 eDSBSC=eAm1-eAm2;
-subplot(3,1,3);
+subplot(3,1,3)
 plot(t,eDSBSC);
 
 ~~~
 
 Output Graph
+<img width="1919" height="1199" alt="image" src="https://github.com/user-attachments/assets/662f3442-b3cc-4591-ba59-2d834dba3693" />
 
-<img width="1918" height="1198" alt="dsbsc1" src="https://github.com/user-attachments/assets/1d903f22-bf4b-4de6-9931-fe1e662f66fe" />
 
 
 
 Tablular Column
 
-<img width="1474" height="900" alt="dsbscc" src="https://github.com/user-attachments/assets/6e6e684a-4931-4af5-9f64-04fea50efbcd" />
+<img width="2055" height="3198" alt="image" src="https://github.com/user-attachments/assets/389cd8a4-a2a2-402b-afc3-462727bb47cf" />
 
 
 
